@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D412BAC7261AB7540035CCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAC6261AB7540035CCD0 /* AppDelegate.swift */; };
 		D412BAC9261AB7540035CCD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BAC8261AB7540035CCD0 /* SceneDelegate.swift */; };
-		D412BACB261AB7540035CCD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BACA261AB7540035CCD0 /* ViewController.swift */; };
 		D412BACE261AB7540035CCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BACC261AB7540035CCD0 /* Main.storyboard */; };
-		D412BAD0261AB7560035CCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D412BACF261AB7560035CCD0 /* Assets.xcassets */; };
 		D412BAD3261AB7560035CCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D412BAD1261AB7560035CCD0 /* LaunchScreen.storyboard */; };
+		D412BADB261AB7740035CCD0 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BADA261AB7740035CCD0 /* settingViewController.swift */; };
+		D412BADD261AB7800035CCD0 /* guessNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D412BADC261AB7800035CCD0 /* guessNumberViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D412BAC3261AB7540035CCD0 /* guessNumber-V.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "guessNumber-V.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D412BAC6261AB7540035CCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D412BAC8261AB7540035CCD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D412BACA261AB7540035CCD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D412BACD261AB7540035CCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D412BACF261AB7560035CCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D412BAD2261AB7560035CCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D412BAD4261AB7560035CCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D412BADA261AB7740035CCD0 /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		D412BADC261AB7800035CCD0 /* guessNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessNumberViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				D412BAC6261AB7540035CCD0 /* AppDelegate.swift */,
 				D412BAC8261AB7540035CCD0 /* SceneDelegate.swift */,
-				D412BACA261AB7540035CCD0 /* ViewController.swift */,
 				D412BACC261AB7540035CCD0 /* Main.storyboard */,
-				D412BACF261AB7560035CCD0 /* Assets.xcassets */,
 				D412BAD1261AB7560035CCD0 /* LaunchScreen.storyboard */,
 				D412BAD4261AB7560035CCD0 /* Info.plist */,
+				D412BADA261AB7740035CCD0 /* settingViewController.swift */,
+				D412BADC261AB7800035CCD0 /* guessNumberViewController.swift */,
 			);
 			path = "guessNumber-V.2";
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D412BAD3261AB7560035CCD0 /* LaunchScreen.storyboard in Resources */,
-				D412BAD0261AB7560035CCD0 /* Assets.xcassets in Resources */,
 				D412BACE261AB7540035CCD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D412BACB261AB7540035CCD0 /* ViewController.swift in Sources */,
 				D412BAC7261AB7540035CCD0 /* AppDelegate.swift in Sources */,
+				D412BADD261AB7800035CCD0 /* guessNumberViewController.swift in Sources */,
 				D412BAC9261AB7540035CCD0 /* SceneDelegate.swift in Sources */,
+				D412BADB261AB7740035CCD0 /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
